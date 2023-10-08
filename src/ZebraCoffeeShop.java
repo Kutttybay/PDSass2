@@ -13,7 +13,7 @@ public class ZebraCoffeeShop {
         System.out.println("4. Coffee with Milk and Sugar - $2.70");
         System.out.print("Enter your choice (1/2/3/4): ");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine();
 
         Coffee coffee = new BasicCoffee();
 
